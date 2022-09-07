@@ -1,11 +1,14 @@
 This file contains shell comands
-
+===============================================
 command		description
+-----------------------------------------------
+cd 		Change directory
+pwd		PRINT WORKING DIRECTORY
 ls		list the directory files
 ls -l		list a full detailed file list
 rwx		read, write, excecute
 rwx		is equal to 111(true true true)
-		
+-----------------------------------------------
 Binary number works
 000	0
 001	1
@@ -15,9 +18,9 @@ Binary number works
 101	5
 110	6
 111	7
-===============
+==============================================
 creating files and folders
----------------------------
+----------------------------------------------
 touch filename
 echo "information" > filename 
 
@@ -28,7 +31,10 @@ deleting file from folder and folders
 file			rm file_name
 folder			rmdir folder_name
 non-empty folder 	rm -r folder_name
+
 ============================================
+Renaming and moving 
+--------------------------------------------
 renaming file 	mv filename newfilename
 moving file	mv filename file_destination
 copying file	cp filename file_destination
@@ -40,3 +46,6 @@ the first line is #!/bin/bash always
 (shibang line)
 followed by a series of commands 
 like 	ls -l
+
+============================================
+
