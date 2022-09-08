@@ -6,18 +6,25 @@ cd 		Change directory
 pwd		PRINT WORKING DIRECTORY
 ls		list the directory files
 ls -l		list a full detailed file list
+ls -a 		list all files and filders even hidden oned
+less		displays the file contents
+cat		displays the file contents
+		writes to a file
+echo 		prints to a file
+		drivided from php echo function that lets you print content
+man 		show the manual of a command (man ls)
 rwx		read, write, excecute
 rwx		is equal to 111(true true true)
 -----------------------------------------------
 Binary number works
-000	0
-001	1
-010	2
-011	3
-100	4
-101	5
-110	6
-111	7
+000	0	FFF
+001	1	FFT
+010	2	FTF
+011	3	FTT
+100	4	TFF
+101	5	TFT
+110	6	TTF
+111	7	TTT
 ==============================================
 creating files and folders
 ----------------------------------------------
@@ -48,4 +55,21 @@ followed by a series of commands
 like 	ls -l
 
 ============================================
+SHELL PERMISIONS
+--------------------------------------------
+chmod access_mode filename	 	change mode - we are changing who can see and viie our file
+chown new_owner filename		change owner
+chgrp newgroup filename			change group
+su username				change the current user 
+sudo -i					change to root user
+addgroup group_name 			new group name
+===========================================
+SHELL REDIRECTIONS AND FILTERS
+-------------------------------------------
+WE already covered echo and cat
+head filename		Reads the 1st 10 line of a text file
+tail filename		Reads the last 10 lines
+find filename		looks for a file or folder with the  matching input
+
+
 
